@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Terminal Portfolio
 
-## Getting Started
+A Bloomberg Terminal-inspired portfolio website built with Next.js. Visitors interact with your portfolio through a command-line interface, typing commands to learn about you, your projects, and how to get in touch.
 
-First, run the development server:
+## Features
+
+- **Terminal UI** — Full-screen terminal with macOS window controls, scrollable output, and blinking cursor
+- **Commands** — `help`, `banner`, `about`, `projects`, `contact`, `clear`
+- **Keyboard Shortcuts** — Tab autocomplete, arrow key history navigation, Escape to clear input
+- **Typewriter Animations** — Staggered output with CSS-driven typewriter effects
+- **Fully Configurable** — All content, colors, and fonts controlled via `config.json`
+
+## Quick Start
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the terminal.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Configuration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Edit `config.json` to personalize:
 
-## Learn More
+- **identity** — Page title, terminal prompt username/hostname, greeting message
+- **content.ascii** — ASCII art banner displayed on load
+- **content.social** — Email, GitHub, LinkedIn, X, and Substack links
+- **content.projects** — Portfolio projects with name, description, and URL
+- **theme.colors** — Background, foreground, accent colors, link styles
+- **theme.font** — Font family and fallbacks
 
-To learn more about Next.js, take a look at the following resources:
+## Commands
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Command   | Description                          |
+|-----------|--------------------------------------|
+| `help`    | List available commands              |
+| `banner`  | Display ASCII art welcome banner     |
+| `about`   | Show bio and social links            |
+| `projects`| Browse portfolio projects            |
+| `contact` | View contact information             |
+| `clear`   | Clear terminal output                |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Tech Stack
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js 16
+- React 19
+- Tailwind CSS 4
+- TypeScript
