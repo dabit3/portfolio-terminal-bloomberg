@@ -1,0 +1,94 @@
+{
+  "identity": {
+    "title": "Nader Dabit | Terminal Portfolio",
+    "username": "nader",
+    "hostname": "dabit.dev",
+    "greeting": "Hey, I'm Nader Dabit — developer, writer, and builder at the edge of what's next."
+  },
+  "content": {
+    "ascii": [
+      "███╗   ██╗ █████╗ ██████╗ ███████╗██████╗ ",
+      "████╗  ██║██╔══██╗██╔══██╗██╔════╝██╔══██╗",
+      "██╔██╗ ██║███████║██║  ██║█████╗  ██████╔╝",
+      "██║╚██╗██║██╔══██║██║  ██║██╔══╝  ██╔══██╗",
+      "██║ ╚████║██║  ██║██████╔╝███████╗██║  ██║",
+      "╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝",
+      "",
+      "Welcome to my terminal portfolio.",
+      "Type 'help' to see available commands."
+    ],
+    "social": {
+      "email": "daaborahmad@gmail.com",
+      "github": "dabit3",
+      "linkedin": "naderdabit",
+      "twitter": "daaborahmad",
+      "substack": "nader.substack.com"
+    },
+    "projects": [
+      {
+        "name": "React Native AI",
+        "description": "Full stack framework for building cross-platform mobile AI apps",
+        "link": "https://github.com/dabit3/react-native-ai"
+      },
+      {
+        "name": "Semantic Search",
+        "description": "Full stack serverless semantic search with Next.js, OpenAI, and Supabase",
+        "link": "https://github.com/dabit3/semantic-search-nextjs-pinecone-langchain-chatgpt"
+      },
+      {
+        "name": "AI Art Generator",
+        "description": "Generate AI art images using Leap AI and store to Supabase",
+        "link": "https://github.com/dabit3/leap-ai-avatars"
+      },
+      {
+        "name": "Lens Protocol Apps",
+        "description": "Collection of example apps and starter kits for Lens Protocol",
+        "link": "https://github.com/dabit3/lens-protocol-frontend"
+      },
+      {
+        "name": "Full Stack Ethereum",
+        "description": "Building full stack dApps with React, Ethers.js, Solidity, and Hardhat",
+        "link": "https://github.com/dabit3/full-stack-ethereum"
+      },
+      {
+        "name": "Web3 Auth Examples",
+        "description": "Various authentication patterns for Web3 applications",
+        "link": "https://github.com/dabit3/next.js-web3-authentication"
+      }
+    ]
+  },
+  "theme": {
+    "colors": {
+      "background": "#0f0f0f",
+      "foreground": "#ff8c00",
+      "banner": "#ff6600",
+      "border": {
+        "visible": true,
+        "color": "#ff6600"
+      },
+      "prompt": {
+        "default": "#ff8c00",
+        "user": "#ffaa00",
+        "host": "#ff6600",
+        "input": "#ffffff"
+      },
+      "link": {
+        "text": "#00d4ff",
+        "highlightColor": "#ff6600",
+        "highlightText": "#000000"
+      },
+      "commands": {
+        "textColor": "#00ff88"
+      },
+      "accent": "#ffcc00",
+      "muted": "#666666",
+      "error": "#ff4444",
+      "success": "#00ff88",
+      "panel": "#1a1a1a"
+    },
+    "font": {
+      "family": "IBM Plex Mono",
+      "fallback": "Consolas, Monaco, monospace"
+    }
+  }
+}
